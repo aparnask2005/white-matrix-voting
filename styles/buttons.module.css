@@ -34,6 +34,10 @@ width: 100%;
   font-weight: 500;
   cursor: pointer;
 }
+.linkedin img {
+  filter: brightness(0) invert(1);
+}
+
 .google {
   width: 100%;
   padding: 12px;
@@ -50,10 +54,10 @@ width: 100%;
 }
 
 .linkedin:hover {
-  background: #08245e;
+  background: #0f3074;
 }
 .google:hover {
-  background: #bec0c7;
+  background: #d0d1d6;
 }
 
 
