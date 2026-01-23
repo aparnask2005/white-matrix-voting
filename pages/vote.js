@@ -35,7 +35,7 @@ export default function Vote() {
           <div
             className={styles.card}
             style={{
-              border: selected === 1 ? "2px solid #111827" : "1px solid #e5e7eb",
+              border: selected === 1 ? "4px solid #0bc756" : "1px solid #e5e7eb",
               cursor: "pointer",
               opacity: hasVoted ? 0.6 : 1,
             }}
@@ -55,7 +55,7 @@ export default function Vote() {
           <div
             className={styles.card}
             style={{
-              border: selected === 2 ? "2px solid #111827" : "1px solid #e5e7eb",
+              border: selected === 2 ? "4px solid #0bc756" : "1px solid #e5e7eb",
               cursor: "pointer",
               opacity: hasVoted ? 0.6 : 1,
             }}
